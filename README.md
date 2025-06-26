@@ -1,7 +1,6 @@
 <div align="center">
 <h2 align="center">
-   <img src="./assets/optimus.png" style="vertical-align: middle; height: 1em; padding: 0 0.2em;"> <b>Less is More: Empowering GUI Agent with 
-     <br />  Context-Aware Simplification
+   <img src="./assets/optimus.png" style="vertical-align: middle; height: 1em; padding: 0 0.2em;"> <b>Less is More: Empowering GUI Agent with Context-Aware Simplification
    <br /> <font size=3>ICCV 2025 </font></b> 
 </h2>
 <div>
