@@ -26,9 +26,6 @@
 </div>
 </div>
 
-Xurui Zhou, Rui Shao, Yibo Lyu, Kaiwen Zhou, Shuai Wang, WenTao Li, Yinchuan Li, Zhongang Qi, Liqiang Nie
-
-
 ## :new: Updates
 - [06/2025] :fire: We release the code. Enjoy it!
 - [06/2025] :fire: SimpAgent is accepted to **ICCV 2025**!
