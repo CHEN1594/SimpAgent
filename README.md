@@ -4,16 +4,19 @@
    <br /> <font size=3>ICCV 2025 </font></b> 
 </h2>
 <div>
-<a target="_blank" href="https://scholar.google.com/citations?user=TDBF2UoAAAAJ&hl=en&oi=ao">Zaijing&#160;Li</a><sup>1 2</sup>,
-<a target="_blank" href="https://scholar.google.com/citations?user=KO77A2oAAAAJ&hl=en">Yuquan&#160;Xie</a><sup>1</sup>,
-<a target="_blank" href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ&hl=en&oi=ao">Rui&#160;Shao</a><sup>1&#9993</sup>,
 <a target="_blank" href="https://scholar.google.com/citations?user=Mpg0w3cAAAAJ&hl=en&oi=ao">Gongwei&#160;Chen</a><sup>1</sup>,
+<a target="_blank">Xurui&#160;Zhou</a><sup>1</sup>,
+<a target="_blank" href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ&hl=en&oi=ao">Rui&#160;Shao</a><sup>1&#9993</sup>,
+<a target="_blank">Yibo&#160;Lyu</a><sup>1</sup>,
+<a target="_blank" href="https://jnhujnhu.github.io/">Kaiwen&#160;Zhou</a><sup>1</sup>,
 <br>
-<a target="_blank" href="https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ">Dongmei&#160;Jiang</a><sup>2</sup>,
+<a target="_blank" >WenTao&#160;Li</a><sup>2</sup>,
+<a target="_blank" href="https://yinchuanll.github.io/">Yinchuan&#160;Li</a><sup>2</sup>,
+ <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=yywVMhUAAAAJ">Zhongang&#160;Qi</a><sup>2&#9993</sup>,
  <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=yywVMhUAAAAJ">Liqiang&#160;Nie</a><sup>1&#9993</sup>
 </div>
 <sup>1</sup>Harbin Institute of Technology, Shenzhen&#160&#160&#160</span>
-<sup>2</sup>Peng Cheng Laboratory, Shenzhen</span>
+<sup>2</sup>Huawei Noah’s Ark Lab</span>
 <br />
 <sup>&#9993&#160;</sup>Corresponding author&#160;&#160;</span>
 <br/>
@@ -25,6 +28,7 @@
 </div>
 </div>
 
+Xurui Zhou, Rui Shao, Yibo Lyu, Kaiwen Zhou, Shuai Wang, WenTao Li, Yinchuan Li, Zhongang Qi, Liqiang Nie
 
 
 ## :new: Updates
