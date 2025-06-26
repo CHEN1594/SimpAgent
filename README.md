@@ -1,6 +1,6 @@
 <div align="center">
 <h2 align="center">
-   <b>Less is More: Empowering GUI Agent with Context-Aware Simplification
+   <img src="./assets/simpagent.png" style="vertical-align: middle; height: 1em; padding: 0 0.2em;"> <b>Less is More: Empowering GUI Agent with Context-Aware Simplification
    <br /> <font size=3>ICCV 2025 </font></b> 
 </h2>
 <div>
@@ -40,6 +40,7 @@ Xurui Zhou, Rui Shao, Yibo Lyu, Kaiwen Zhou, Shuai Wang, WenTao Li, Yinchuan Li,
 ```shell
 pip install -r requirement.txt
 ```
+Due to a bug in Transformers v4.45.2, please replace the transformers-qwen2vl model file with SimpAgent/src/model_file/modeling_qwen2vl.py to ensure the correctness of the rope_encoding implementation.
 
 ## How to run
 ```shell
@@ -47,12 +48,17 @@ bash scripts/finetune_lora.sh
 ```
 
 ## :balloon: SimpAgent Framework
-We divide the structure of Optimus-1 into Knowledge-Guided Planner, Experience-Driven Reflector, and Action Controller. In a given game environment with a long-horizon task, the Knowledge-Guided Planner senses the environment, retrieves knowledge from HDKG, and decomposes the task into executable sub-goals. The action controller then sequentially executes these sub-goals. During execution, the Experience-Driven Reflector is activated periodically, leveraging historical experience from AMEP to assess whether Optimus-1 can complete the current sub-goal. If not, it instructs the Knowledge-Guided Planner to revise its plan. Through iterative interaction with the environment,Optimus-1 ultimately completes the task.
-<img src="./assets/fig2.png" >
+Overview of our context-aware simplification framework for building SimpAgent. The main components are masking-based element pruning and consistency-guided history compression. We assist SimpAgent in mitigating interference from unrelated elements by masking certain regions based on a pre-defined distribution. During training, we maintain the consistency between two LLM branches for explicitly steering history compression. At inference, SimpAgent only uses the LLM branch with truncated tokens, reducing 27% FLOPs.<img src="./assets/framework.png" >
 
 ## :smile_cat: Evaluation results
-We report the `average success rate (SR)`, `average number of steps (AS)`, and `average time (AT)` on each task group, the results of each task can be found in the Appendix experiment. Lower AS and AT metrics mean that the agent is more efficient at completing the task, while $∞$ indicates that the agent is unable to complete the task. Overall represents the average result on the five groups of Iron, Gold, Diamond, Redstone, and Armor.
-<img src="./assets/table1.png" >
+Performance comparisons on AITW, Mind2Web, and GUI-Odyssey. We report the step success rate (step SR). #P.T., and #Param. denote the number of pre-training GUI datasets and parameters, respectively. * means the variant utilizing only action history. -M denotes only applying masking-based element pruning without inference FLOPs reduction.
+<img src="./assets/results.png" >
+
+
+
+## :balloon: Visualization of attention
+Illustration of attention maps in agent models w/ and w/o consistency guidance, and their attention difference map. The **attention difference map** shows that action tokens pay more attention (highlighted positions) to historical observation tokens when they act as query tokens with consistency guidance. This attention comparison demonstrates that consistency guidance can promote the information aggregation from observations to actions and facilitate the history compression.<img src="./assets/visualization.png" >
+
 
 ## Acknowledgement
 - We built our code based on: [Qwen2-VL-Finetuning](https://github.com/2U1/Qwen2-VL-Finetune). Thanks 2U1!
