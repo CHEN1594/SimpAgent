@@ -54,7 +54,7 @@ Performance comparisons on AITW, Mind2Web, and GUI-Odyssey. We report the step s
 
 
 
-## :balloon: Visualization of attention
+## :unicorn: Visualization of attention
 Illustration of attention maps in agent models w/ and w/o consistency guidance, and their attention difference map. The **attention difference map** shows that action tokens pay more attention (highlighted positions) to historical observation tokens when they act as query tokens with consistency guidance. This attention comparison demonstrates that consistency guidance can promote the information aggregation from observations to actions and facilitate the history compression.<img src="./assets/visualization.png" >
 
 
