@@ -1,6 +1,6 @@
 <div align="center">
 <h2 align="center">
-   <img src="./assets/simpagent.png" style="vertical-align: middle; height: 3em; padding: 0 0.2em;"> <b>Less is More: Empowering GUI Agent with Context-Aware Simplification
+   <img src="./assets/simpagent.png" style="vertical-align: middle; height: 2em; padding: 0 0.2em;"> <b>Less is More: Empowering GUI Agent with Context-Aware Simplification
    <br /> <font size=3>ICCV 2025 </font></b> 
 </h2>
 <div>
