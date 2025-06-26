@@ -12,7 +12,7 @@
 <br>
 <a target="_blank" >WenTao&#160;Li</a><sup>2</sup>,
 <a target="_blank" href="https://yinchuanll.github.io/">Yinchuan&#160;Li</a><sup>2</sup>,
- <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=yywVMhUAAAAJ">Zhongang&#160;Qi</a><sup>2&#9993</sup>,
+ <a target="_blank" href="https://zhongangqi.github.io/">Zhongang&#160;Qi</a><sup>2</sup>,
  <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=yywVMhUAAAAJ">Liqiang&#160;Nie</a><sup>1&#9993</sup>
 </div>
 <sup>1</sup>Harbin Institute of Technology, Shenzhen&#160&#160&#160</span>
