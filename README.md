@@ -8,8 +8,9 @@
 <a target="_blank">Xurui&#160;Zhou</a><sup>1</sup>,
 <a target="_blank" href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ&hl=en&oi=ao">Rui&#160;Shao</a><sup>1&#9993</sup>,
 <a target="_blank">Yibo&#160;Lyu</a><sup>1</sup>,
-<a target="_blank" href="https://jnhujnhu.github.io/">Kaiwen&#160;Zhou</a><sup>1</sup>,
+<a target="_blank" href="https://jnhujnhu.github.io/">Kaiwen&#160;Zhou</a><sup>2</sup>,
 <br>
+<a target="_blank" href="https://lucaswang16.github.io/">Shuai&#160;Wang</a><sup>2</sup>,
 <a target="_blank" >WenTao&#160;Li</a><sup>2</sup>,
 <a target="_blank" href="https://yinchuanll.github.io/">Yinchuan&#160;Li</a><sup>2</sup>,
  <a target="_blank" href="https://zhongangqi.github.io/">Zhongang&#160;Qi</a><sup>2</sup>,
