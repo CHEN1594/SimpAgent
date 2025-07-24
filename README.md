@@ -1,7 +1,7 @@
 <div align="center">
 <h2 align="center">
    <img src="./assets/simpagent.png" style="vertical-align: middle; height: 1.5em; padding: 0 0.2em;"> <b>Less is More: Empowering GUI Agent with Context-Aware Simplification
-   <br /> <font size=3>ICCV 2025 </font></b> 
+   <br /> <font size=3>ICCV 2025 Highlight</font></b> 
 </h2>
 <div>
 <a target="_blank" href="https://scholar.google.com/citations?user=Mpg0w3cAAAAJ&hl=en&oi=ao">Gongwei&#160;Chen</a><sup>1</sup>,
